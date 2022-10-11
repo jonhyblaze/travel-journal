@@ -22,7 +22,7 @@ export default function Spot(props) {
                height="10px"
                />
           <h5 className="spot--loc--country">{props.item.location}</h5>
-          <a href="props.item.googleMaps.url" className="spot--loc--link">
+          <a href={props.item.googleMapsUrl} className="spot--loc--link">
             <h6 className="spot--loc--link">View on Google Maps</h6>
           </a>
         </div>
