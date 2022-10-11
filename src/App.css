@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Typography */
+
+h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: .95rem;
+  line-height: 1.2rem;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+}
+
+h5.spot--loc--country {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+h5.spot--timing {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+p {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2B283A;
+}
+
+.App {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0  auto;
+}
+
+
+
+.spots--list {
+ margin-top: 2rem;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: space-evenly;
+ gap: 2rem;
+ margin-left: 2rem;
+}
+
+.spot--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 60%;
+}
+
+.spot--info--loc {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 0.25rem;
+}
+
+a.spot--loc--link {
+  margin-left: 0.5rem;
+}
